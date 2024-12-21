@@ -7,53 +7,53 @@
 
 /* Body Styling */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #f7d2b8, #ffabab); /* Softer gradient */
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #4e73df, #1c1c88); /* Blue gradient */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   text-align: center;
-  color: #333; /* Dark text for readability */
+  color: #f7f7f7; /* Light text for contrast */
 }
 
 /* Header */
 h1 {
   font-size: 3.5rem;
-  font-weight: 600;
-  color: #333;
+  font-weight: bold;
+  color: #ffffff; /* White color for the heading */
   margin-bottom: 30px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 /* Button Styling */
 button {
-  background-color: #ff6a5c;
+  background-color: #32cd32; /* Vibrant green */
   color: white;
-  font-size: 1.2rem;
-  padding: 15px 25px;
+  font-size: 1.3rem;
+  padding: 18px 28px;
   border: none;
-  border-radius: 30px;
+  border-radius: 50px; /* More rounded corners */
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
-  margin-bottom: 20px; /* Space below the button */
+  margin-bottom: 25px; /* More space below the button */
 }
 
 button:hover {
-  background-color: #ff3b30;
-  transform: scale(1.05);
+  background-color: #228b22; /* Darker green on hover */
+  transform: scale(1.07);
 }
 
 /* Image Styling */
 img {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
   opacity: 0;
-  animation: fadeIn 1.5s ease forwards;
+  animation: fadeIn 2s ease forwards;
 }
 
 /* Image Fade-In Effect */
